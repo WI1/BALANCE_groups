@@ -54,51 +54,6 @@ function groups_default_fe_block_settings() {
     'cache' => '1',
   );
 
-  $theme['heartbeat-groupsactivity'] = array(
-    'module' => 'heartbeat',
-    'delta' => 'groupsactivity',
-    'theme' => 'balance',
-    'status' => 0,
-    'weight' => '-33',
-    'region' => '',
-    'custom' => '0',
-    'throttle' => '0',
-    'visibility' => '0',
-    'pages' => '',
-    'title' => '',
-    'cache' => '6',
-  );
-
-  $theme['heartbeat-membersactivity'] = array(
-    'module' => 'heartbeat',
-    'delta' => 'membersactivity',
-    'theme' => 'balance',
-    'status' => 0,
-    'weight' => '-2',
-    'region' => '',
-    'custom' => '0',
-    'throttle' => '0',
-    'visibility' => '0',
-    'pages' => '',
-    'title' => '',
-    'cache' => '6',
-  );
-
-  $theme['heartbeat-ogheartbeat'] = array(
-    'module' => 'heartbeat',
-    'delta' => 'ogheartbeat',
-    'theme' => 'balance',
-    'status' => 0,
-    'weight' => '-34',
-    'region' => '',
-    'custom' => '0',
-    'throttle' => '0',
-    'visibility' => '0',
-    'pages' => '',
-    'title' => '',
-    'cache' => '6',
-  );
-
   $theme['menu-menu-fgtop'] = array(
     'module' => 'menu',
     'delta' => 'menu-fgtop',

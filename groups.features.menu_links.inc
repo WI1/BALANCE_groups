@@ -25,60 +25,6 @@ function groups_menu_default_menu_links() {
     'weight' => '-49',
     'parent_path' => 'projects_fg',
   );
-  // Exported menu link: navigation:heartbeat/groupsactivity
-  $menu_links['navigation:heartbeat/groupsactivity'] = array(
-    'menu_name' => 'navigation',
-    'link_path' => 'heartbeat/groupsactivity',
-    'router_path' => 'heartbeat/groupsactivity',
-    'link_title' => '',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Organic groups activity page',
-      ),
-    ),
-    'module' => 'system',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
-  );
-  // Exported menu link: navigation:heartbeat/membersactivity
-  $menu_links['navigation:heartbeat/membersactivity'] = array(
-    'menu_name' => 'navigation',
-    'link_path' => 'heartbeat/membersactivity',
-    'router_path' => 'heartbeat/membersactivity',
-    'link_title' => '',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Organic group member activity page',
-      ),
-    ),
-    'module' => 'system',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
-  );
-  // Exported menu link: navigation:heartbeat/ogheartbeat
-  $menu_links['navigation:heartbeat/ogheartbeat'] = array(
-    'menu_name' => 'navigation',
-    'link_path' => 'heartbeat/ogheartbeat',
-    'router_path' => 'heartbeat/ogheartbeat',
-    'link_title' => '',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Organic group activity page',
-      ),
-    ),
-    'module' => 'system',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
-  );
   // Exported menu link: navigation:node/add/blog
   $menu_links['navigation:node/add/blog'] = array(
     'menu_name' => 'navigation',
@@ -90,21 +36,6 @@ function groups_menu_default_menu_links() {
         'title' => 'A <em>blog entry</em> is a single post to an online journal, or <em>blog</em>.',
       ),
     ),
-    'module' => 'system',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
-    'parent_path' => 'node/add',
-  );
-  // Exported menu link: navigation:node/add/conftoolgroup
-  $menu_links['navigation:node/add/conftoolgroup'] = array(
-    'menu_name' => 'navigation',
-    'link_path' => 'node/add/conftoolgroup',
-    'router_path' => 'node/add/conftoolgroup',
-    'link_title' => 'ConfTool Gruppe',
-    'options' => array(),
     'module' => 'system',
     'hidden' => '0',
     'external' => '0',
@@ -150,7 +81,6 @@ function groups_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Blog entry');
-  t('ConfTool Gruppe');
   t('Gruppen');
   t('Interne und externe Vertrauensbeziehungen');
   t('Projekte');
