@@ -6,6 +6,63 @@
 function groups_content_default_fields() {
   $fields = array();
 
+  // Exported field: field_file
+  $fields['download-field_file'] = array(
+    'field_name' => 'field_file',
+    'type_name' => 'download',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '2' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '3' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'filefield',
+    'required' => '1',
+    'multiple' => '1',
+    'module' => 'filefield',
+    'active' => '1',
+    'list_field' => '0',
+    'list_default' => 1,
+    'description_field' => '0',
+    'widget' => array(
+      'file_extensions' => '',
+      'file_path' => 'downloads',
+      'progress_indicator' => 'bar',
+      'max_filesize_per_file' => '',
+      'max_filesize_per_node' => '',
+      'label' => 'Datei',
+      'weight' => '31',
+      'description' => '<b>Nach dem upload aller Dateien bitte unten auf "Speichern" klicken, damit die Dateien gespeichert werden.</b>',
+      'type' => 'filefield_widget',
+      'module' => 'filefield',
+    ),
+  );
+
   // Exported field: field_color_hex
   $fields['focusgroup-field_color_hex'] = array(
     'field_name' => 'field_color_hex',
@@ -1960,6 +2017,7 @@ function groups_content_default_fields() {
   t('Betreuung BALANCE');
   t('Betreuung DLR');
   t('Bild Betreuer DLR');
+  t('Datei');
   t('Farbcode');
   t('Fokusgruppensprecher');
   t('Forschungsfragen');

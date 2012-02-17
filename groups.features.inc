@@ -72,6 +72,17 @@ function groups_imagecache_default_presets() {
  */
 function groups_node_info() {
   $items = array(
+    'download' => array(
+      'name' => t('Download'),
+      'module' => 'features',
+      'description' => t('Dateien für das Download Center'),
+      'has_title' => '1',
+      'title_label' => t('Titel'),
+      'has_body' => '0',
+      'body_label' => '',
+      'min_word_count' => '0',
+      'help' => '',
+    ),
     'focusgroup' => array(
       'name' => t('Fokusgruppe'),
       'module' => 'features',
